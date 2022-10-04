@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-color: #eeff00;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  background-color: #ffffffb6;
+  box-shadow: 0 0 10px 10px #808177ee;
+  margin: 50px;
+}
+
+table td {
+  border: 1px solid #3b3535da;
+}
+
+form {
+  width: 40%;
+  background-color: #518e9173;
+}
+
+form div {
+  width: 80%;
+  margin: 20px auto;
+  text-align: start;
+}
+
+button {
+  width: 50%;
+  margin: 10px;
+  height: 30px;
+  font-size: 18px;
+}
+
+button :hover {
+  color: #eeff00;
+  cursor: pointer;
+}
